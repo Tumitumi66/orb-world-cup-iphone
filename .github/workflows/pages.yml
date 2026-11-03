@@ -31,8 +31,20 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+      - name: Release stuck legacy deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          endpoint="repos/$GITHUB_REPOSITORY/pages/deployments/c537082942e944efd38a7b262a71147d7672e7d0"
+          status=$(gh api "$endpoint/status" --jq '.status' 2>/dev/null || true)
+          echo "Legacy deployment status: $status"
+          if [ "$status" = "updating_pages" ] || [ "$status" = "queued" ] || [ "$status" = "deployment_in_progress" ]; then
+            gh api --method POST "$endpoint/cancel"
+            sleep 5
+            gh api "$endpoint/status" --jq '.status'
+          fi
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          timeout: 900000
+          timeout: 600000
