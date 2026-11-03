@@ -1,0 +1,51 @@
+小球世界杯 iPhone版 — 资源来源
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Panayiotis Lipiridis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+V6 audio credits / sources
+
+Gunshot Sounds — Tabasco — CC0
+https://opengameart.org/content/gunshot-sounds
+Recorded CZ-52, Mosin Nagant, SKS and shotgun samples. Trimmed, normalized and edited for pistol, automatic, sniper, shotgun and low pitched blast cues. Gatling/rocket cues are designed edits, not dedicated recordings of those weapons.
+
+20 Sword Sound Effects (Attacks and Clashes) — StarNinjas — CC0
+https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes
+Sword attacks and metal shield clashes.
+
+Swishes Sound Pack — CC0
+https://opengameart.org/content/swishes-sound-pack
+Physical object swishes for knife and spear.
+
+ImpactPlate_medium_000 — Kenney Impact Sounds — CC0
+https://kenney.nl/assets/impact-sounds
+Mirror used: https://github.com/manuel-palacio/brickstorm/blob/main/CREDITS.md
+https://github.com/manuel-palacio/brickstorm/blob/main/public/audio/paddle-hit.ogg
+
+Ice/magic and UI cues retain original designed effects. All samples are normalized before playback; master gain and limiter cap mixed playback.
+
+
+Copyright (c) 2009 Vincent Sevedge
+
+Audio and Visual content is covered under the Creative Commons Attribution 3.0 Unported License
+http://creativecommons.org/licenses/by/3.0/
