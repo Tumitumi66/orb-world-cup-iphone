@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='orb-iphone-v9-20261103b';
+const CACHE='orb-iphone-v10-20261104a';
 const BASE=new URL('./',self.location.href);
 const FILES=['./','./index.html','./manifest.webmanifest','./icon-180.png','./icon-192.png','./icon-512.png','./ASSET-LICENSES.txt'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES.map(p=>new Request(new URL(p,BASE),{cache:'reload'})))).then(()=>self.skipWaiting()));});

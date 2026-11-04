@@ -1,4 +1,4 @@
-小球世界杯 iPhone版 — 资源来源
+小球竞技场 iPhone版 — 资源来源
 
 The MIT License (MIT)
 
@@ -49,3 +49,5 @@ Copyright (c) 2009 Vincent Sevedge
 
 Audio and Visual content is covered under the Creative Commons Attribution 3.0 Unported License
 http://creativecommons.org/licenses/by/3.0/
+
+第10版：32支原创队名，沿用上述旗帜图案并进行颜色处理；配色及队名为本项目原创设计。
